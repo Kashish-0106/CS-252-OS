@@ -2,7 +2,7 @@
 ## Statement
 Write a multithreaded program that calculates various statistical values for a list of numbers. This program will be passed a series of numbers on the command line and will then create three separate worker threads. One thread will determine the average of the numbers, the second will determine the maximum value, and the third will determine the minimum value. For example, suppose your program is passed the integers
 
-90 81 78 95 79 72 85 \ 
+90 81 78 95 79 72 85  
 
 > The program will report \
 > The average value is 82 \
@@ -16,12 +16,12 @@ The variables representing the average, minimum, andmaximum values will be store
 
 ## Instructions
 Download/Clone the Github repo.
-`git clone https://github.com/Varun-SHV/CS252-OS-Assignment.git` \
-`cd CS252-OS-Assignment/4.22` \
+`git clone https://github.com/Varun-SHV/CS252-OS-Assignment.git` 
+`cd CS252-OS-Assignment/4.22` 
 Compile the program
-`gcc Multithrd.c -lpthread` \
+`gcc Multithrd.c -lpthread` 
 Run the compiled program and enter the data
-`./a.out {data...}` \
+`./a.out {data...}` 
 # Demo
 The result: maximum, minimum, average are displayed.
 [DEMO](/4.22/result2-ss.png)
@@ -32,7 +32,7 @@ The following thread fuctions and declarations were used:
 
 - Used to declare a thread.
 - store the thread ID of the new thread.
-- example : `pthread_t t1;` \
+- example : `pthread_t t1;` 
 2. `int pthread_create(pthread_t *thread, pthread_attr_t *attr, void *(*start_routine) (void *arg), void *arg);`
 
 - thread: location where the thread ID is stored
