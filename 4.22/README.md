@@ -24,7 +24,7 @@ Run the compiled program and enter the data
 `./a.out {data...}` 
 # Demo
 The result: maximum, minimum, average are displayed.
-[DEMO](4.22/result2-ss.png)
+![DEMO](4.22/result2-ss.png)
 
 The following thread fuctions and declarations were used:
 
