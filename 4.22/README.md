@@ -24,7 +24,7 @@ Run the compiled program and enter the data
 `./a.out {data...}` 
 # Demo
 The result: maximum, minimum, average are displayed.
-[DEMO](/4.22/result2-ss.png)
+[DEMO](4.22/result2-ss.png)
 
 The following thread fuctions and declarations were used:
 
@@ -49,5 +49,5 @@ The following thread fuctions and declarations were used:
 - Used to wait for the termination of a thread
 - example : `pthread_join(t1,NULL);`
 ## Credits
-(https://github.com/RoystonDsouza42/CS252/tree/main/Question%204.22)
+[https://github.com/RoystonDsouza42/CS252/tree/main/Question%204.22](https://github.com/RoystonDsouza42/CS252/tree/main/Question%204.22)
 Note: Source code was taken from [@RoystonDsouza42](https://github.com/RoystonDsouza42)'s repo and minor changes were made to it.
