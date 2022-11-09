@@ -24,7 +24,7 @@ Run the compiled program and enter the data
 `./a.out {data...}` 
 # Demo
 The result: maximum, minimum, average are displayed.
-![DEMO](4.22/result2-ss.png)
+![DEMO](/4.22/result2-ss.png)
 
 The following thread fuctions and declarations were used:
 
@@ -39,7 +39,7 @@ The following thread fuctions and declarations were used:
 - attr: structure that specifies the attributes of the new thread.
 - start_routine: routine where the thread begins.
 - arg : arguments to pass to start_routine.
-- example : pthread_create(&t1,NULL,&avg,NULL);
+- example : `pthread_create(&t1,NULL,&avg,NULL);`
 3. `void pthread_exit(void *status);`
 
 - Used to terminate a thread.
