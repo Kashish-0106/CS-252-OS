@@ -24,4 +24,4 @@ The fork() function works only on Linux OS. Specific header files are to be load
 
 Output console:
 
-![result](/result-screenshot.png)
+![result](/3.21/result-screenshot.png)
